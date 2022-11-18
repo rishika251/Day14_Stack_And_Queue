@@ -13,6 +13,14 @@ public class QueueMain {
 		queue.display();
 		queue.enQueue(70);
 		queue.display();
+		System.out.println("Queue Operation - DeQueue");
+		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
 	}
 
 }
